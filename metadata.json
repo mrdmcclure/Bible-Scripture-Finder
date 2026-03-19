@@ -1,0 +1,5 @@
+{
+  "name": "InsightCorp: AI Company Research",
+  "description": "Deep-dive company research dashboard powered by Gemini and Google Search. Get summaries, growth predictions, patent data, and hiring trends for any company.",
+  "requestFramePermissions": []
+}
