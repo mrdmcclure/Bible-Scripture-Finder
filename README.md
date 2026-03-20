@@ -7,7 +7,7 @@
 This is a simple, Gemini 3.0 powered app where you can type in any topic and it outputs 5-6 bible verses relevant to it.  In each verse displayed as a result, it gives a 1 sentence summary of how it is relevant to your  search criteria, lists from which translation it came from, and enables you to copy it.  If you want results from only one translation (such as NIV), you can add "NIV only" to the search.  Results will look like this:
 
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="scripture_finder_search_screenshot.png" />
+<img width="1200" height="575" alt="GHBanner" src="scripture_finder_search_screenshot.png" />
 </div>
 
 
