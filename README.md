@@ -1,20 +1,25 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="GHBanner" src="scripture_finder_landing_page.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Scripture Finder
 
-This contains everything you need to run your app locally.
+This is a simple, Gemini 3.0 powered app where you can type in any topic and it outputs 5-6 bible verses relevant to it.  In each verse displayed as a result, it gives a 1 sentence summary of how it is relevant to your  search criteria, lists from which translation it came from, and enables you to copy it.  If you want results from only one translation (such as NIV), you can add "NIV only" to the search.  Results will look like this:
 
-View your app in AI Studio: https://ai.studio/apps/5e786eef-aab9-4530-9f45-e8ae328d39b6
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src=scripture_finder_search_screenshot.png" />
+</div>
+
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:**  Node.js, a Gemini API key
 
 1. Install dependencies:
    `npm install`
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+You will need a valid Gemini API key to run this app, which you can generate from Google AI Studio.
+
